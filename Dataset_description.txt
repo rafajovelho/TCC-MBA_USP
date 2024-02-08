@@ -1,6 +1,5 @@
 Sobre o arquivo:
 
-
 Sobre o processamento e anonimização dos dados
 
 O dataset foi anonimizado com o objetivo de garantir a privacidade dos respondentes, para isso foi necessário em alguns casos remover outliers que poderiam identificar o entrevistado e, portanto, nem todos os dados coletados na pesquisa estarão disponíveis aqui. Estados com menor incidência de resposta, como aqueles das regiões Norte, terão apenas sua região indicada no dataset, também como consequência do processo de anonimização, o mesmo aconteceu em algumas outras perguntas.
