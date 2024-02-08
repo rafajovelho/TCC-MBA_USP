@@ -1,0 +1,27 @@
+Sobre o arquivo:
+
+
+Sobre o processamento e anonimização dos dados
+
+O dataset foi anonimizado com o objetivo de garantir a privacidade dos respondentes, para isso foi necessário em alguns casos remover outliers que poderiam identificar o entrevistado e, portanto, nem todos os dados coletados na pesquisa estarão disponíveis aqui. Estados com menor incidência de resposta, como aqueles das regiões Norte, terão apenas sua região indicada no dataset, também como consequência do processo de anonimização, o mesmo aconteceu em algumas outras perguntas.
+
+As perguntas cujas respostas são multi-valoradas ocupam mais de uma coluna no dataset. Portanto, para diferenciar quais colunas pertencem a quais perguntas, cada coluna é identificada com uma tupla. Sendo o primeiro identificador o da pergunta, e, no caso de várias respostas, o segundo identificador referencia a alternativa escolhida. As perguntas mapeadas são mostradas abaixo (lembrando que algumas foram removidas e outras tiveram alguns outliers transformados/apagados no processo de anonimização).
+
+Obs: A pergunta original (com multiplas respostas preenchidas) sempre antecede as opções das perguntas multi-valoradas, com o objetivo de facilitar o entendimento.
+Exemplo: Se você estiver com dúvidas no que a coluna P8_a_1 representa, basta procurar a coluna P8_a e ver o título.
+
+Sobre os dados da Pesquisa
+
+O questionário foi dividido em 8 partes, e dentro de cada uma das partes temos as perguntas e opções de escolha.
+
+Parte 1 - Dados demográficos
+Parte 2 - Dados sobre carreira
+Parte 3 - Desafios dos gestores de times de dados
+Parte 4 - Conhecimentos na área de dados
+Parte 5 - Objetivos na área de dados
+Parte 6 - Conhecimentos em Engenharia de Dados/DE
+Parte 7 - Conhecimentos em Análise de Dados/DA
+Parte 8 - Conhecimentos em Ciências de Dados/DS
+
+Cada pergunta é dividida em Parte, Letra da Pergunta, Letra da Opção escolhida
+Exemplo: P3a_1 = Parte 3, pergunta (a), opção (1)
